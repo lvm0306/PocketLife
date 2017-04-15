@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 字体大小设置，字体行间距设置-->
+    <dimen name="text_size_big_title">24sp</dimen>
+    <dimen name="text_size_normal_title">20sp</dimen>
+    <dimen name="text_size_litle_title">16sp</dimen>
+    <dimen name="text_size_litle_title_litle">14sp</dimen>
+    <dimen name="text_size_content">18sp</dimen>
+    <dimen name="text_title_line_spacing_extra">5sp</dimen>
+    <dimen name="text_content_line_spacing_extra">8sp</dimen>
+    <!--公共-->
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_19sp">19sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_21sp">21sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_23sp">23sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+
+    <dimen name="diment_height_5dp">5dp</dimen>
+    <dimen name="diment_height_8dp">8dp</dimen>
+    <dimen name="diment_height_10dp">10dp</dimen>
+    <dimen name="diment_height_15dp">15dp</dimen>
+    <dimen name="diment_height_20dp">20dp</dimen>
+    <dimen name="diment_height_30dp">30dp</dimen>
+    <dimen name="diment_height_40dp">40dp</dimen>
+    <dimen name="diment_height_50dp">50dp</dimen>
+    <dimen name="diment_height_60dp">60dp</dimen>
+    <dimen name="diment_height_70dp">70dp</dimen>
+    <dimen name="diment_height_80dp">80dp</dimen>
+    <dimen name="diment_height_90dp">90dp</dimen>
+    <dimen name="diment_height_100dp">100dp</dimen>
+
+    <!--news -->
+    <dimen name="news_rv_hei">80dp</dimen>
+    <dimen name="news_rv_pic_wid">80dp</dimen>
+
+</resources>

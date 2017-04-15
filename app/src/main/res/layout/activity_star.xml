@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_star_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/star12_aqaurius"
+    android:orientation="vertical"
+    tools:context="com.example.apple.pocketlife.app.ui.everyday.star.StarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="您的星座是："
+            android:textColor="@color/darkseagreen"
+            android:textSize="18sp" />
+
+        <Spinner
+
+            android:id="@+id/sp_star"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_star_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="查询"
+            android:textColor="@color/darkseagreen"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+        <!--星座日指数-->
+        <LinearLayout
+            android:id="@+id/ll_star_today"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <RatingBar
+                android:id="@+id/rb_star_today"
+                style="@style/MyRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:isIndicator="true"
+                android:numStars="10" />
+
+            <TextView
+
+                android:id="@+id/tv_star_color_today"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="幸运颜色：" />
+
+            <TextView
+                android:id="@+id/tv_star_health_today"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="健康指数：" />
+
+            <TextView
+                android:id="@+id/tv_star_love_today"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="爱情指数：" />
+
+            <TextView
+                android:id="@+id/tv_star_money_today"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商谈指数：" />
+
+            <TextView
+                android:id="@+id/tv_star_friend_today"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="速配星座：" />
+
+            <TextView
+
+                android:id="@+id/tv_star_work_today"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工作指数：" />
+
+            <TextView
+
+                android:id="@+id/tv_star_summary_today"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="整体运势：" />
+
+        </LinearLayout>
+        <!--星座周指数-->
+        <LinearLayout
+            android:id="@+id/ll_star_week"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_star_health_week"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="健康指数：" />
+
+            <TextView
+                android:id="@+id/tv_star_love_week"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diment_height_5dp"
+                android:text="爱情指数：" />
+
+            <TextView
+                android:id="@+id/tv_star_money_week"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diment_height_5dp"
+                android:text="商谈指数：" />
+
+
+            <TextView
+
+                android:id="@+id/tv_star_work_week"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diment_height_5dp"
+                android:text="工作指数：" />
+
+            <TextView
+
+                android:id="@+id/tv_star_job_week"
+                style="@style/startextthemm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diment_height_5dp"
+                android:text="求职指数：" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_star_week"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_star_tvbg"
+            android:gravity="center"
+            android:text="本周运势"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_star_today"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_star_tvbg"
+            android:gravity="center"
+            android:text="今日运势"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:id="@+id/tv_star_tomorrow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_star_tvbg"
+            android:gravity="center"
+            android:text="明日运势"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

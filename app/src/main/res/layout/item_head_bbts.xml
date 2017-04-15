@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="球队名字："
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/sp_bbts"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:minWidth="100dp" />
+
+    <Button
+        android:id="@+id/btn_head_bbts"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/diment_height_50dp"
+        android:gravity="center"
+        android:text="查询"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
